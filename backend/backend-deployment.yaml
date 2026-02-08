@@ -16,7 +16,7 @@ spec:
       containers:
       - name: backend
         # Jenkins is line ko build number ke sath automatically update karega
-        image: animalregistryhimanshu01.azurecr.io/animal-backend:1
+        image: animalregistryhimanshu01.azurecr.io/animal-backend:2
         ports:
         - containerPort: 8080
 ---
